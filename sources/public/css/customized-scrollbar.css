@@ -1,0 +1,75 @@
+/**
+ * MarkIng project.
+ *
+ * Copyright 2017 Arno Zhang <zyfgood12@163.com>
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.with-scroll-bar {
+    overflow: auto;
+}
+
+.with-scroll-bar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-left: solid 1px #B2DFDB;
+    border-right: solid 1px #B2DFDB;
+    padding-left: 1px;
+}
+
+.with-scroll-bar::-webkit-scrollbar-track {
+    border-radius: 8px;
+}
+
+.with-scroll-bar::-webkit-scrollbar-thumb {
+    background-color: #80CBC4;
+    border-radius: 8px;
+}
+
+.with-scroll-bar::-webkit-scrollbar-thumb:hover {
+    background-color: #4DB6AC;
+}
+
+.with-scroll-bar::-webkit-scrollbar-thumb:active {
+    background-color: #26A69A;
+}
+
+
+
+pre::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background-color: white;
+    border-left: solid 1px #B2DFDB;
+    border-right: solid 1px #B2DFDB;
+    padding-left: 1px;
+}
+
+pre::-webkit-scrollbar-track {
+    border-radius: 8px;
+}
+
+pre::-webkit-scrollbar-thumb {
+    background-color: #80CBC4;
+    border-radius: 8px;
+}
+
+pre::-webkit-scrollbar-thumb:hover {
+    background-color: #4DB6AC;
+}
+
+pre::-webkit-scrollbar-thumb:active {
+    background-color: #26A69A;
+}

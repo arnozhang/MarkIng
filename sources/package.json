@@ -1,0 +1,59 @@
+{
+    "name": "MarkIng",
+    "version": "1.0.0",
+    "description": "Markdown editor build with electron.",
+    "main": "./dist/build/index.js",
+    "scripts": {
+        "compile": "tsc",
+        "build": "webpack",
+        "build-release": "webpack --define process.env.NODE_ENV='\"release\"'",
+        "start": "electron .",
+        "package": "electron-packager ./ MarkIng --overwrite --app-version=1.0.0 --platform=darwin --arch=all --out=../MarkIng --electron-version=1.7.10 --icon=./public/images/app-icon.icns"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/arnozhang/MarkIng.git"
+    },
+    "keywords": [
+        "MarkIng",
+        "Markdown",
+        "Electron",
+        "React"
+    ],
+    "author": "arnozhang",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/arnozhang/MarkIng/issues"
+    },
+    "homepage": "https://github.com/arnozhang/MarkIng#readme",
+    "dependencies": {
+        "codemirror": "^5.33.0",
+        "electron": "^1.7.10",
+        "electron-config": "^1.0.0",
+        "electron-json-storage": "^4.0.2",
+        "electron-reload": "^1.2.2",
+        "jquery": "^3.2.1",
+        "lodash": "^4.17.4",
+        "react": "^16.2.0",
+        "react-codemirror": "^1.0.0",
+        "react-codemirror2": "^3.0.7",
+        "react-dom": "^16.2.0",
+        "remarkable": "^1.7.1"
+    },
+    "devDependencies": {
+        "@types/codemirror": "0.0.55",
+        "@types/electron-json-storage": "^4.0.0",
+        "@types/jquery": "^3.2.17",
+        "@types/lodash": "^4.14.92",
+        "@types/node": "^8.5.7",
+        "@types/react": "^16.0.34",
+        "@types/react-codemirror": "^1.0.0",
+        "@types/react-dom": "^16.0.3",
+        "css-loader": "^0.28.8",
+        "electron-packager": "^10.1.1",
+        "source-map-loader": "^0.2.3",
+        "style-loader": "^0.19.1",
+        "ts-loader": "^3.2.0",
+        "webpack": "^3.10.0"
+    }
+}

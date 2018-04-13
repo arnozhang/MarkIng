@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "allowJs": true,
+        "outDir": "./dist/build/",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "module": "commonjs",
+        "target": "es5"
+    },
+    "exclude": [
+        "node_modules",
+        "dist"
+    ],
+    "files": [
+        "./app/render/page/HomePage.tsx"
+    ]
+}
